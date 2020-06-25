@@ -102,6 +102,12 @@ body {
     margin: 0 auto;
 }
 
+.w3 a:hover{
+    transition: 0.5s;
+    background: #028e91;
+    /*color: black;*/
+}
+
 .w4 a {
     color: #8b939e;
     text-decoration: none;
@@ -136,4 +142,20 @@ body {
 
 .img_list li:hover {
     background-color: #03a6a9 !important;
+}
+
+.w3 a {
+    transition: 0.5s;
+    background: #02b2b5;
+    width: 149px;
+    height: 44px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    line-height: 44px;
+    font-weight: normal;
+    margin-left: 533px;
+    margin-top: 30px;
 }
