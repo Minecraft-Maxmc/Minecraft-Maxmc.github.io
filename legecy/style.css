@@ -1,0 +1,139 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    float: right;
+    margin-top: 20px;
+}
+
+.nav ul li {
+    transition: 0.5s;
+    list-style-type: none;
+    float: left;
+    border-radius: 20px;
+    height: 40px;
+    width: auto;
+    min-width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.nav ul li:last-child {
+    list-style-type: none;
+    float: left;
+    border-radius: 20px;
+    height: 40px;
+    width: auto;
+    min-width: 100px;
+    text-align: center;
+    line-height: 40px;
+    color: #000000;
+}
+
+.nav ul li:hover {
+    transition: 0.5s;
+    background: #02b2b5;
+    color: white;
+}
+
+.nav ul li.activate {
+    background: #02b2b5;
+    color: white;
+}
+
+.w1 {
+    height: 293px;
+    width: 1200px;
+    margin: 50px auto 0 auto;
+}
+
+.w1 ul {
+    text-align: center;
+}
+
+.w1 ul li {
+    list-style-type: none;
+    float: left;
+    width: 150px;
+    margin-right: 185px;
+}
+
+.w1 ul li:last-child {
+    list-style-type: none;
+    float: left;
+    width: 150px;
+    margin-right: 0;
+}
+
+.w1 ul li img {
+    border: 0;
+}
+
+.w2 {
+    height: 750px;
+    width: 1222px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.w2 ul li {
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.w2 ul li:last-child {
+    list-style-type: none;
+}
+
+.w2 ul li img {
+    width: 288px;
+    height: 198px;
+}
+
+.w3 {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.w4 a {
+    color: #8b939e;
+    text-decoration: none;
+}
+
+.w4 a:hover {
+    color: #ffffff;
+}
+
+.page {
+    width: 71px;
+    height: 71px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: block;
+    position: absolute;
+    border-radius: 6px;
+    cursor: pointer
+}
+
+.page:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.img_list li {
+    height: 35px !important;
+    background-color: #02b2b5;
+    color: white !important;
+    clear: both;
+    border-radius: 0 !important;
+    min-width: 80px !important;
+}
+
+.img_list li:hover {
+    background-color: #03a6a9 !important;
+}

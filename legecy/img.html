@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" class="g_html">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>MAXMC服务器官网|Minecraft服务器</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .nav{
+            float: right;
+            margin-top: 20px;
+        }
+        .nav ul li{
+            list-style-type: none;
+            float: left;
+            border-radius: 20px;
+            height: 40px;
+            width: auto;
+            min-width: 100px;
+            margin-right: 10px;
+            text-align: center;
+            line-height: 40px;
+            color: #000000;
+            cursor: pointer;
+        }
+        .nav ul li:last-child{
+            list-style-type: none;
+            float: left;
+            border-radius: 20px;
+            height: 40px;
+            width: auto;
+            min-width: 100px;
+            text-align: center;
+            line-height: 40px;
+            color: #000000;
+        }
+        .nav ul li:hover{
+            background: #02b2b5;
+            color: white;
+        }
+        .nav ul li.activate{
+            background: #02b2b5;
+            color: white;
+        }
+        .w3{
+            width: 1200px;
+            height: 500px;
+            margin: 0 auto;
+        }
+        .w4 a{
+            color: #8b939e;
+            text-decoration: none;
+        }
+        .w4 a:hover{
+            color: #ffffff;
+        }
+        .img_list{
+            position: relative;
+            left: 10px;
+            padding: 0;
+            border-radius: 10px;
+            width: 80px;
+            height: 140px;
+            overflow: hidden;
+            z-index: 2;
+            display: none;
+        }
+        .img_list li{
+            height: 35px!important;
+            background-color: #02b2b5;
+            color: white!important;
+            clear: both;
+            border-radius: 0 !important;
+            min-width: 80px!important;
+        }
+        .img_list li:hover{
+            background-color: #03a6a9!important;
+        }
+    </style>
+</head>
+<body>
+<div style="height: 120px;background-color: #f6f6f8;">
+    <div style="height: 120px;width: 1200px;margin: 0 auto;">
+        <a style="float: left">
+            <div style="color: rgb(100, 181, 246);font-size: 36px;font-weight: bold;margin-top: 35px;">M A X M C</div>
+        </a>
+        <div class="nav">
+            <ul>
+                <a href="index.html"><li>首页</li></a>
+                <a href="#"><li>论坛</li></a>
+                <a href="img.html"><li>服务器皂片</li></a>
+                <a href="xiazai.html"><li>客户端下载</li></a>
+                <a href="https://www.100fk.com/U7IQlD3/Sindex.html"><li>赞助服务器</li></a>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="w3">
+
+</div>
+<div style="height: 92px;background-color: #3b3b3b;">
+    <div style="width: 1200px;margin: 0 auto;">
+        <a style="float: left">
+            <div style="color: rgb(100, 181, 246);font-size: 36px;font-weight: bold;margin-left: 25px;margin-top: 25px;">M A X M C</div>
+        </a>
+        <div class="w4" style="float: right;text-align: right;margin-top: 15px;color: #8b939e;font-size: 14px;font-family: 微软雅黑;">
+            <a href="index.html">首页</a> | <a href="#">论坛</a> | <a href="img.html">服务器皂片</a> | <a href="xiazai.html">客户端下载</a> | <a href="https://www.100fk.com/U7IQlD3/Sindex.html">赞助服务器</a>
+            <br/>
+            ©2019 - MAXMC 版权所有
+            <br/>
+            <a href="#">手机版</a> | @16K | <a href="#">我的世界服务器</a>
+        </div>
+    </div>
+</div>
+<script src="https://lib.baomitu.com/jquery/3.3.1/jquery.js"></script>
+<script>
+    $(function() {
+        $(".img_btm").mouseover(function() {
+            $(".img_list").show();
+        });
+        $(".img_btm").mouseout(function() {
+            $(".img_list").hide();
+        })
+    })
+</script>
+</body>
+</html>
